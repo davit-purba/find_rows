@@ -99,7 +99,7 @@ export function DataTableDemo() {
 
     const [text, setText] = React.useState<string>('')
 
-    let token = 'undefined'
+    const token = 'undefined'
 
     const table = useReactTable({
         data,
